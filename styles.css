@@ -1,0 +1,76 @@
+/* stylesheet for shutterbugg project for chapter 5 
+	author: william
+	date: 5/31/19
+	filename: styles.css
+*/
+
+.container {
+	max-width: 928px; 
+}
+
+.main {
+	height: 600px;
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	padding-top: 30px;
+}
+.main h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 65px;
+	text-shadow: blue 4px 2px 4px;
+	transition: text-shadow 1s;
+}
+
+.main h1:hover {
+	text-shadow: green 5px 5px 4px;
+}
+
+.main h2 {
+	font-family: 'chewy', cursive;
+	margin-bottom: 40px;
+}
+.main a {
+	font-size: 24px;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+	border-radius: 32px;
+	padding: 10px 40px;
+	transition: background-color .5s;
+}
+.btn:hover {
+	background-color: green;
+}
+
+.section .row {
+	padding-top: 50px;
+}
+
+.row h1 {
+	font-family: 'chewy', cursive;
+	
+}
+
+.row p {
+	font-family: 'Courgette', cursive;
+	font-size: 30px;
+}
+
+#store {
+	padding: 30px 10px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.footer h1 {
+	font-size: 40px;
+	
+}
+
+.footer ul {
+	font-size: 20px;
+	padding-left: 0px;
+	list-style-type: none;
+}
